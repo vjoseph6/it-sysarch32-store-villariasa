@@ -535,6 +535,33 @@ section{
     position: relative; /* Add position relative to the container */
 }
 
+.add-to-cart2 {
+    display: flex;
+    align-items: center; /* Aligns button and select vertically (optional) */
+    justify-content: flex-end;
+    position: relative; /* Add position relative to the container */
+}
+
+.add-to-cart2 button {
+    font-size: 25px;
+    /* Adjust distance from the left */
+      background-color: #080b0e; /* Adjust background color as desired */
+      color: white;
+      font-family: 'Gentona', sans-serif;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      right: 350px;
+      cursor: pointer;
+      position: absolute; /* Position button absolutely within the container */
+      bottom: -300px;
+      transition: background-color 0.2s ease-in-out;
+}
+
+.add-to-cart button:hover {
+    background-color: #24272b;/* Change background on hover */
+}
+
 .add-to-cart button {
     font-size: 25px;
   /* Adjust distance from the left */
